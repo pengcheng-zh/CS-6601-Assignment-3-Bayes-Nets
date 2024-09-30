@@ -22,7 +22,8 @@ def make_security_system_net():
         "D"'. (for the tests to work.)
     """
     BayesNet = BayesianNetwork()
-    # TODO: finish this function͏︅͏︀͏︋͏︋͏󠄌͏󠄎͏󠄋͏󠄏͏󠄄͏󠄆    
+    # TODO: finish this function͏︅͏︀͏︋͏︋͏󠄌͏󠄎͏󠄋͏󠄏͏󠄄͏󠄆
+    # Contact me with email: zhangpch666@163.com or Wechat: YSYY66
     raise NotImplementedError
     return BayesNet
 
@@ -34,6 +35,7 @@ def set_probability(bayes_net):
         "D"'. (for the tests to work.)
     """
     # TODO: set the probability distribution for each node͏︅͏︀͏︋͏︋͏󠄌͏󠄎͏󠄋͏󠄏͏󠄄͏󠄆
+    # Contact me with email: zhangpch666@163.com or Wechat: YSYY66
     raise NotImplementedError    
     return bayes_net
 
@@ -43,6 +45,7 @@ def get_marginal_double0(bayes_net):
         Calculate the marginal probability that Double-0 gets compromised.
     """
     # TODO: finish this function͏︅͏︀͏︋͏︋͏󠄌͏󠄎͏󠄋͏󠄏͏󠄄͏󠄆
+    # Contact me with email: zhangpch666@163.com or Wechat: YSYY66
     raise NotImplementedError
     return double0_prob
 
@@ -53,6 +56,7 @@ def get_conditional_double0_given_no_contra(bayes_net):
         given Contra is shut down.
     """
     # TODO: finish this function͏︅͏︀͏︋͏︋͏󠄌͏󠄎͏󠄋͏󠄏͏󠄄͏󠄆
+    # Contact me with email: zhangpch666@163.com or Wechat: YSYY66
     raise NotImplementedError
     return double0_prob
 
@@ -63,6 +67,7 @@ def get_conditional_double0_given_no_contra_and_bond_guarding(bayes_net):
         given Contra is shut down and Bond is reassigned to protect M.
     """
     # TODO: finish this function͏︅͏︀͏︋͏︋͏󠄌͏󠄎͏󠄋͏󠄏͏󠄄͏󠄆
+    # Contact me with email: zhangpch666@163.com or Wechat: YSYY66
     raise NotImplementedError
     return double0_prob
 
@@ -74,6 +79,7 @@ def get_game_network():
     """
     BayesNet = BayesianNetwork()
     # TODO: fill this out͏︅͏︀͏︋͏︋͏󠄌͏󠄎͏󠄋͏󠄏͏󠄄͏󠄆
+    # Contact me with email: zhangpch666@163.com or Wechat: YSYY66
     raise NotImplementedError    
     return BayesNet
 
@@ -84,7 +90,8 @@ def calculate_posterior(bayes_net):
         Return a list of probabilities corresponding to win, loss and tie likelihood.
     """
     posterior = [0,0,0]
-    # TODO: finish this function͏︅͏︀͏︋͏︋͏󠄌͏󠄎͏󠄋͏󠄏͏󠄄͏󠄆    
+    # TODO: finish this function͏︅͏︀͏︋͏︋͏󠄌͏󠄎͏󠄋͏󠄏͏󠄄͏󠄆
+    # Contact me with email: zhangpch666@163.com or Wechat: YSYY66
     raise NotImplementedError
     return posterior # list 
 
@@ -106,7 +113,7 @@ def Gibbs_sampler(bayes_net, initial_state):
     """
     sample = tuple(initial_state)    
     # TODO: finish this function͏︅͏︀͏︋͏︋͏󠄌͏󠄎͏󠄋͏󠄏͏󠄄͏󠄆
-
+    # Contact me with email: zhangpch666@163.com or Wechat: YSYY66
     variable_index = None # Your chosen variable
 
     if variable_index == 0:
@@ -144,6 +151,7 @@ def MH_sampler(bayes_net, initial_state):
     team_table = A_cpd.values
     sample = tuple(initial_state)    
     # TODO: finish this function͏︅͏︀͏︋͏︋͏󠄌͏󠄎͏󠄋͏󠄏͏󠄄͏󠄆
+    # Contact me with email: zhangpch666@163.com or Wechat: YSYY66
     raise NotImplementedError    
     return sample
 
@@ -158,6 +166,8 @@ def compare_sampling(bayes_net, initial_state):
     Gibbs_convergence = [0,0,0] # posterior distribution of the BvC match as produced by Gibbs 
     MH_convergence = [0,0,0] # posterior distribution of the BvC match as produced by MH
     # TODO: finish this function͏︅͏︀͏︋͏︋͏󠄌͏󠄎͏󠄋͏󠄏͏󠄄͏󠄆
+    # Contact me with email: zhangpch666@163.com or Wechat: YSYY66
+    
     raise NotImplementedError        
     return Gibbs_convergence, MH_convergence, Gibbs_count, MH_count, MH_rejection_count
 
@@ -167,6 +177,8 @@ def sampling_question():
         Question about sampling performance.
     """
     # TODO: assign value to choice and factor͏︅͏︀͏︋͏︋͏󠄌͏󠄎͏󠄋͏󠄏͏󠄄͏󠄆
+    # Contact me with email: zhangpch666@163.com or Wechat: YSYY66
+    
     raise NotImplementedError
     choice = 2
     options = ['Gibbs','Metropolis-Hastings']
@@ -179,4 +191,6 @@ def return_your_name():
         Return your name from this function
     """
     # TODO: finish this function͏︅͏︀͏︋͏︋͏󠄌͏󠄎͏󠄋͏󠄏͏󠄄͏󠄆
+    # Contact me with email: zhangpch666@163.com or Wechat: YSYY66
+    
     raise NotImplementedError
