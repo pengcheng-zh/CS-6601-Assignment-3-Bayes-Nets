@@ -1,3 +1,5 @@
+# Have GET 100 points, if you need, contact me with email: zhangpch666@163.com or Wechat: YSYY66
+
 ## CS 6601 Assignment 3: Bayes Nets
 
 In this assignment, you will work with probabilistic models known as Bayesian networks to efficiently calculate the answer to probability questions concerning discrete random variables.
